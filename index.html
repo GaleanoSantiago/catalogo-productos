@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo de Productos</title>
+    <!-- Site CSS -->
+   <link rel="stylesheet" href="style.css">
+
+   <!-- CSS Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+   rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+   crossorigin="anonymous">
+
+   <!-- Animaciones AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- Estilos propios-->
+   <link rel="stylesheet" href="./css/n7styles.css">
+    <!-- Estilos de la galeria -->
+   <link rel="stylesheet" href="./css/style-gallery.css">
+
+</head>
+<body>
+    <section>
+        <div class="items">
+            <span class="list active" data-filter="all">Todos</span>
+            <span class="list" data-filter="materiales">Materiales de Construcción</span>
+            <span class="list" data-filter="obras">Servicios de Obras</span>
+            <span class="list" data-filter="fletes">Servicios Fletes</span>
+        </div>
+        
+        <div class="product" id="catalogo">
+            
+        </div> 
+    </section>
+
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-centered ">
+        <div class="modal-content ">
+            <div class="modal-header" id="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Cal 340kg</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- <div class="row">
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-6 border">
+                        <div class="cont-modal-img">
+                            <img src="https://picsum.photos/id/598/600/400" alt="">
+                        </div>    
+                    </div>
+                    <div class="col-12 col-lg-6 col-md-6 col-sm-6 border">
+                        <div class="modal-desc">
+                            <h2>Producto Name</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Deleniti necessitatibus dolor eveniet qui totam iste 
+                                voluptas ipsam eius maiores, possimus natus quaerat 
+                                molestiae consequuntur expedita enim architecto quos 
+                                eaque laudantium tenetur nesciunt, harum impedit unde 
+                                doloribus laboriosam. Repellat facere velit quam at 
+                                ipsum tenetur ducimus, doloremque laudantium quod fuga consectetur.</p>
+                        </div>
+                    </div>
+                    
+                </div> -->
+            </div>
+            <div class="modal-footer" id="modal-footer">
+                <!-- <a href="https://wa.me/5493704073147?text=Hola,+me+gustaria+saber+el+precio+de+la+Cal+350kg" 
+                class="btn-wa" target="_blank" title="Boton para ir a WahatsApp"> <span class="fa fa-whatsapp"></span> Consultar Precio</a> -->
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Font Awesome cuenta de Galeano -->
+    <script src="https://kit.fontawesome.com/52ab3134b2.js" crossorigin="anonymous"></script>
+
+    <!-- JS Galeria -->
+    <script src="./js/galeria.js"></script>
+
+    <!-- JavaScript para AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inicializacion para AOS -->
+    <script>
+        AOS.init({
+            delay:150
+        });
+    </script>
+
+</body>
+</html>

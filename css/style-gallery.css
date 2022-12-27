@@ -1,4 +1,4 @@
-*{
+﻿*{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -33,6 +33,11 @@
     
     --borders-light:#dbdbdb;
     --lightBlue:#03a9f4;
+
+    /* Colores de whatsapp: */
+    --wa-1: #005c4b;
+    --wa-2: #44c554;
+    --wa-3: #128c7e;
 }
 
 
@@ -129,6 +134,7 @@ section .items span.active{
 }
 .imgs img{
     width:100%;
+    height:100%;
     aspect-ratio:1/1;
     object-fit:cover;
     object-position: center;
